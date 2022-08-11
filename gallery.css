@@ -1,0 +1,39 @@
+.subheading{
+    font-family: cursive;
+    text-shadow: 2px 2px 5px;
+    letter-spacing: 2px;
+    font-size: 35px;
+    text-shadow: -1px 0 black 0 1px black 0 1px black 0 -1px black;
+    padding: 0 20px;
+}
+
+.gallery{
+    padding: 20px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.gallery_logo{
+    padding: 30px;
+}
+
+.gallery_logo img{
+    filter: invert(1);
+    padding: 20px;
+}
+
+.gallery img{
+    transition:1s;
+    width:350px;
+    height:250px;
+    margin:0px;
+    padding:0px;
+}
+.gallery img:hover{
+    filter:grayscale(50%);
+    transform:scale(1.1);
+}
+

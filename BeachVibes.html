@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BeachVibes: Home</title>
+        <link rel="stylesheet" href="BeachVibes.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="logo">
+            <h4><a id="logo" href="BeachVibes.html"><span>Beach</span><span id="logo2">Vibes</span></a></h4>
+            <a href="signup.html">SIGN UP</a>
+            <a href="login.html">LOGIN</a>
+        </div>
+        <div class="slide-show">
+            <div class="slide fade">
+                <div class="number">1 / 6</div>
+                <img src="https://www.dresseldivers.com/wp-content/uploads/water-sport-activities-jet-ski-1024x682.jpg" alt="">
+            </div>
+            <div class="slide fade">
+                <div class="number">2 / 6</div>
+                <img src="https://pyt-blogs.imgix.net/2020/05/lilybeachmaldives.jpg?auto=format&ixlib=php-3.3.0" alt="">
+            </div>
+            <div class="slide fade">
+                <div class="number">3 / 6</div>
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/11/1000x650-140.jpg" alt="">
+            </div>
+            <div class="slide fade">
+                <div class="number">4 / 6</div>
+                <img src="https://paddleboston.com/app/uploads/NV7A0756.jpg" alt="">
+            </div>
+            <div class="slide fade">
+                <div class="number">5 / 6</div>
+                <img src="https://indiathrills.com/wp-content/uploads/2020/10/20201022-flyboarding-808987_1920.jpg" alt="">
+            </div>
+            <div class="slide fade">
+                <div class="number">6 / 6</div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZyAmLuqbfQ6ha8cTQhkSeZZ_m0PR0e3Nrw&usqp=CAU" alt="">
+            </div>
+            <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlide(1)">&#10095;</a>
+        </div>
+        <script>
+            var index = 1;
+            showSlide(index);
+            function plusSlide(n){
+                showSlide(index += n);
+            }
+            function showSlide(n){
+                var slides = document.getElementsByClassName("slide")
+                if(n > slides.length){
+                    index = 1;
+                }
+                if(n < 1){
+                    index = slides.length;
+                }
+                for(var i=0; i<slides.length; i++){
+                    slides[i].style.display = "none";
+                }
+                slides[index-1].style.display = "block"
+            }
+        </script>
+        <div class="nav">
+            <a href="BeachVibes.html">HOME</a>
+            <a href="BeachVibes.html#services">SERVICES</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <div class="divide">
+            <div class="links">
+                <h2>SPORTS</h2>
+                <br><br>
+                <a href="kayak.html">KAYAKING</a>
+                <br><br>
+                <a href="scubadiving.html">SCUBA DIVING</a>
+                <br><br>
+                <a href="parasailing.html">PARASAILING</a>
+                <br><br>
+                <a href="banana_boat_ride.html">BANANA BOAT RIDE</a>
+                <br><br>
+                <a href="flyboarding.html">FLYBOARDING</a>
+                <br><br>
+                <a href="jet_skiing.html">JET SKIING</a>
+                <br><br>
+            </div>
+            <div class="main">
+                <div class="about">
+                    <h1>ABOUT</h1>
+                    <br><br>
+                    <p>Goa is all about water and fun for water lovers. Thalassophiles always make an excuse to dive into the water. The hot summer season and beautiful beaches obviously call for some interesting water sports in Goa. We have a list of water activities for all the water lovers that are so much fun to do. Seawater is always an attraction for its lovers. They always get curious when they come near the sea and eagerly want to know about the life of aquatic creatures.</p>
+                    <br>
+                    <p>Watersports is the best way to enjoy the beauty of the beaches and grasp it. Goa is the best destination that offers thrilling water sports experience like surfing, parasailing, sunset cruising, swimming, and diving. These activities fill our soul with zeal. With the numerous water activities in Goa, you get a flawless holiday experience in Goa.</p>
+                    <br><br>
+                    <h3>Here is some extra information you will never require, but makes our site look big...</h3>
+                    <br>
+                    <p> Best Beach in Goa for Water Sports :</p>
+
+                        <p>In North Goa – Calangute Beach, Baga beach, and Candolim Beach are the most popular beaches for Water Sports in North Goa. From jet skiing, Parasailing, Bumper boat and banana ride to catamaran sailing and surfing, you will get to indulge in all such activities there. Dona Paula, Anjuna also a good choice for Adventure Lovers.</p>
+                        
+                        <p> South Goa – Colva Beach, Mobor beach, Majorda beach, and Agonda are available with the best options for water sports in South Goa.
+                        Water sports are very popular not only because of the adrenaline-rush, while getting tanned and toned, but also because of several health benefits. In most cases, water sports are done outdoors where you get to breathe in fresh air and be one with nature. It lifts your spirit up, sets you in a good mood and keeps you refreshingly energized! And if you are a more health-conscious person, you will be glad to know of the following added health benefits that water sports offer:
+                        Decrease Risk for Chronic Disease</p>
+                        
+                        <p>Water sports are a great form of exercise because it works almost every part of your body, helping you burn calories the natural way. It increases your metabolism and thus your fluid intake and appetite, which in turn helps you avoid binge eating. It helps you stay healthy and energized that improves immunity against chronic diseases.
+                        Beneficial for People with Arthritis</p>
+                        
+                        <p> Fluidity of water is gentle and naturally soothing to achy joints. Water activities like snorkeling and swimming will facilitate the use of the affected joints without exacerbating the symptoms. Hydrotherapy is a preferred treatment for people suffering from rheumatoid arthritis.
+                        Enhances Mental Health</p>
+                        
+                        <p>Like any other sports or form of exercise, water sports is good for the body. Additionally, it is also good for the mind. The tranquil quality of water reduces stress, anxiety and depression. Swimming for instance has been proven to improve the mood in both men and women.</p>
+                        
+                        <p>Water sports are a great form of exercise because these benefit both the body and mind. So for those who are ready to take in the plunge and enjoy the refreshing waters, Boats4Rent has great boat rentals for several water sports activities that will give you a real good time.</p>
+                        
+                </div>
+                <div id="services">
+                    <h1>SERVICES</h1>
+                    <br><br>
+                    <h2>Included in the package:</h2>
+                    <br>
+                    <ul>
+                        <li>Free coffee.</li>
+                        <li>One banana per booking.</li>
+                        <li>Milk if you <em>are lactose intolerant</em> :)</li>
+                        <li>We let you play basket ball on the beach; <em> if you can, that is (:</em></li>
+                        <li>We offer Transportation from Hotel to the Pickup point (on Selected Tours Or Activities)(PICK AND DROP)</li>
+                        <li>There are some hotels in Goa offering free airport transportation i.e. pick-up/drop-off facilities for tourists and you can grab on to such amazing deals. However, other hotels in Goa often charge a minimum fee for their airport transfer from/to hotel. So, make sure to check thoroughly the transfer options before booking your stay in Goa.
+                            Credit cards are usually accepted for booking your Goa tour, hotel stay, and more. However, an additional percentage will be charged for an online payment made through a credit card. All leading Goa travel agencies accept payments through credit cards, Debit Cards, online bank transfers, wallet options, and more. So, do check for all the payment options before picking one.(NUMEROUS PAYMEMENT OPTIONS)</li>
+                        <li>Most travel insurance policies are built to cover travelers’ main concerns, primarily cancellations and medical emergencies. Due to the popular nature of water sports and activities during vacations, many travel insurance policies include coverage for the most common water activities under these benefits, such as swimming, fishing, and tubing. Typically, the policies that cover these activities can also cover most of the water excursions offered by cruise lines, including jet skiing, snorkeling, and surfing.(INSURANCE)</li>
+                        <li>All the equipments for required watersports will be provided by us and we ensure that all the safety protocols are followed during various watersport activities</li>
+                    </ul>  
+                </div>
+                <div class="register">
+                    <h2><a href="register.html">Book</a> your fav sport now.</h2>
+                    <h3>If this adrenaline inducing expedition is <em>still not adventurous</em>, you can visit our sister site, <b><a href="#"> advenland</a></b>.</h3>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="row_one" id="footer">
+                <div class="column-50" id="footer_info">
+                    <h4>Address</h4>
+                    <p>Calangute, Baga, Candolim,<br>North Goa</p>
+                    <br>
+                    <h4>Phone</h4>
+                    <p>9234567890 / 9234567891</p>
+                    <br>
+                    <h4>E-mail</h4>
+                    <p>beachvibes@gmail.com / supportsystem@gmail.com</p>
+                </div>
+                <div class="column-50" id="footer_info_right">
+                    <br><br>
+                    <h4><a id="logo" href="BeachVibes.html"><span>Beach</span><span id="logo2">Vibes</span></a></h4>
+                    <br>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
